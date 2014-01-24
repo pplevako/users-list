@@ -5,11 +5,7 @@ angular.module('myApp').directive('followMe',
 
     return {
       restrict: 'EA',
-      template: '<span ng-mouseenter="hoverFunc()" ng-mouseleave="hoverFunc()">' +
-        '<img ng-hide="hover" ng-src="{{follow ? \'img/image01.png\' : \'img/image00.png\'}}" />' +
-//        follow-button btn-warning-my
-        '<a ng-show="hover" ng-click="click()" ng-class="follow ? \'btn-follow unfollow\' : \'btn-follow\'" class="btn">{{follow ? unfollowText : followText }}</a>' +
-        '</span>',
+      templateUrl: 'templates/followMe.html',
       scope: {
         'click': '&',
         follow: '=',
