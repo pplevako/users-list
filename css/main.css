@@ -1,0 +1,101 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.people {
+    font-weight:bold;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.avatar {
+    float:left;
+    border-radius: 2px;
+}
+.user {
+    margin-left: 55px;
+}
+
+.user .info {
+    margin-bottom: 8px;
+}
+
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 3px;
+    border-collapse: separate;
+    margin-bottom: 0px;
+}
+
+.table-curved thead > tr > th { border-bottom: none; }
+
+.table-curved th {
+    font-weight:normal;
+}
+
+.table-curved thead {
+    background-color: #ECF0F3;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+#slide {
+    position: absolute;
+    left: -100px;
+    transition: left 1s;
+}
+
+.wrapper:hover #slide {
+    transition: left 1s;
+    left: 0;
+}
+
+.value {
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.btn-more {
+    position: relative;
+    border: 1px solid #ccc;
+    border-top-color: white;
+    border-top-style:dotted;
+    border-radius: 0 0 3px 3px;
+    padding: 5px 0px 5px 0px;
+    bottom: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+.btn-follow {
+    height: 16px;
+    border-radius: 14px;
+    font-size: 12px;
+    padding: 0px 12px;
+    background-color: #A4C574;
+    color: white;
+}
+
+.btn-follow:hover {
+    color: white;
+}
+
+.btn-follow.unfollow {
+    background-color: #c5171a;
+}
+
+.btn-follow.unfollow:hover {
+    background-color: #c5171a;
+}
+
